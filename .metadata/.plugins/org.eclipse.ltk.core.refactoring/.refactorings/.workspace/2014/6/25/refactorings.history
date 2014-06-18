@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Compass&apos; to &apos;CompassMod&apos;&#x0D;&#x0A;- Original element: &apos;Compass&apos;&#x0D;&#x0A;- Renamed element: &apos;Compass&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Compass&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Compass" name="CompassMod" references="true" stamp="1403107009953" version="1.0"/>
+</session>
