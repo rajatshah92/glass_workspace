@@ -52,7 +52,7 @@ public class CompassService extends Service {
          * Read the current heading aloud using the text-to-speech engine.
          */
         public void readHeadingAloud() {
-        	//0 is N, positive number is towards east.
+        	//0 is North, positive towards east, negative towards west
             float heading = mOrientationManager.getHeading(); 
 
             Resources res = getResources();
@@ -91,7 +91,7 @@ public class CompassService extends Service {
         mSpeech = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
-                // Do nothing.
+                //Do nothing.
             }
         });
 

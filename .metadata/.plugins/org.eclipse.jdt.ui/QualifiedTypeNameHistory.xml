@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.R.xml"/>
+<fullyQualifiedTypeName name="android.speech.tts.TextToSpeech"/>
+<fullyQualifiedTypeName name="com.google.android.glass.app.Card"/>
+<fullyQualifiedTypeName name="com.glass.helloworldpicture.R.drawable"/>
+<fullyQualifiedTypeName name="com.google.android.glass.app.Card.ImageLayout"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+</qualifiedTypeNameHistroy>

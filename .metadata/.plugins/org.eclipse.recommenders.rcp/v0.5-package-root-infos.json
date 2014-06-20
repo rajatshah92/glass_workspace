@@ -1,0 +1,54 @@
+[
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7f972d2aa0fcb741fc84a9a10c98555f6f431a7a",
+    "jarFileModificationDate": "2014-06-13T23:42:01.962-04:00",
+    "location": "C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\platforms\\android-19\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gdk",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "76dfd17dc84e70febe58a98b65c8a84a9cb1fcbd",
+    "jarFileModificationDate": "2014-06-13T23:58:30.742-04:00",
+    "location": "C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\add-ons\\addon-google_gdk-google-19\\libs\\gdk.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ded9acc6a9792b8f1afc470f0c9cd36d178914cd",
+    "jarFileModificationDate": "2014-06-19T11:13:38.582-04:00",
+    "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorld\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ded9acc6a9792b8f1afc470f0c9cd36d178914cd",
+    "jarFileModificationDate": "2014-06-19T16:03:57.117-04:00",
+    "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorldPicture\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  }
+]

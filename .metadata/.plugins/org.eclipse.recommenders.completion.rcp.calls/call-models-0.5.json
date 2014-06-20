@@ -1,0 +1,22 @@
+{
+  "C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\platforms\\android-19\\android.jar": {
+    "location": "C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\platforms\\android-19\\android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\platforms\\android-19\\android.jar\u0027. Neither fingerprint \u00277f972d2aa0fcb741fc84a9a10c98555f6f431a7a\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\Compass\\src": {
+    "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\Compass\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\Compass\\src\u0027. Skipped."
+  },
+  "C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\add-ons\\addon-google_gdk-google-19\\libs\\gdk.jar": {
+    "location": "C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\add-ons\\addon-google_gdk-google-19\\libs\\gdk.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Development\\adt-bundle-windows-x86_64-20130522\\sdk\\add-ons\\addon-google_gdk-google-19\\libs\\gdk.jar\u0027. Neither fingerprint \u002776dfd17dc84e70febe58a98b65c8a84a9cb1fcbd\u0027 nor symbolic name \u0027gdk\u0027 are known."
+  },
+  "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorldPicture\\gen": {
+    "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorldPicture\\gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorldPicture\\gen\u0027. Skipped."
+  }
+}

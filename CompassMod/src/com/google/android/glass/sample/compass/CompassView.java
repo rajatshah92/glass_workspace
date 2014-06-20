@@ -57,7 +57,6 @@ public class CompassView extends View {
     private static final float TICK_WIDTH = 2;
     private static final float TICK_HEIGHT = 10;
     private static final float DIRECTION_TEXT_HEIGHT = 84.0f;
-    private static final float HEADING_TEXT_HEIGHT = 42.0f;    
     private static final float PLACE_TEXT_HEIGHT = 22.0f;
     private static final float PLACE_PIN_WIDTH = 14.0f;
     private static final float PLACE_TEXT_LEADING = 4.0f;
@@ -89,7 +88,6 @@ public class CompassView extends View {
     private List<Place> mNearbyPlaces;
 
     private final Paint mPaint;
-    private final Paint mWrite;
     private final Paint mTickPaint;
     private final Path mPath;
     private final TextPaint mPlacePaint;
@@ -116,12 +114,6 @@ public class CompassView extends View {
         mPaint.setAntiAlias(true);
         mPaint.setTextSize(DIRECTION_TEXT_HEIGHT);
         mPaint.setTypeface(Typeface.create("sans-serif-thin", Typeface.NORMAL));
-        
-        mWrite = new Paint();
-        mWrite.setStyle(Paint.Style.FILL);
-        mWrite.setAntiAlias(true);
-        mWrite.setTextSize(HEADING_TEXT_HEIGHT);
-        mWrite.setTypeface(Typeface.create("sans-serif-thin", Typeface.NORMAL));
         
         mTickPaint = new Paint();
         mTickPaint.setStyle(Paint.Style.STROKE);
@@ -264,10 +256,10 @@ public class CompassView extends View {
                     headingFormat = R.string.spoken_heading_format;
                 }
 
-                String headingText = "Heading: " + res.getString(headingFormat, roundedHeading, directionName);
+                String headingText = res.getString(headingFormat, roundedHeading, directionName);
                 
-                canvas.drawText(headingText,i * degreesPerTick * pixelsPerDegree - mTextBounds.width(),
-                        mTextBounds.height(),
+                canvas.drawText(headingText,i * degreesPerTick * pixelsPerDegree - mTextBounds.width()/2,
+                        mTextBounds.height()/2,
                         mPaint);
             } else {
                 // Draw a tick mark for the odd indices.
@@ -351,10 +343,10 @@ public class CompassView extends View {
 
                         canvas.drawBitmap(mPlaceBitmap, offset + bearing * pixelsPerDegree
                                 - PLACE_PIN_WIDTH / 2, textBounds.top + 2, mPaint);
-                        canvas.drawText(text,
+                        /*canvas.drawText(text,
                                 offset + bearing * pixelsPerDegree + PLACE_PIN_WIDTH / 2
                                 + PLACE_TEXT_MARGIN, textBounds.top + PLACE_TEXT_HEIGHT,
-                                mPlacePaint);
+                                mPlacePaint);*/
                     }
                 }
             }
