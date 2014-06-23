@@ -1,5 +1,18 @@
 [
   {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ded9acc6a9792b8f1afc470f0c9cd36d178914cd",
+    "jarFileModificationDate": "2014-06-20T11:19:11.503-04:00",
+    "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\VideoShow\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "android",
     "version": {
       "major": -1,
@@ -34,8 +47,21 @@
       "qualifier": ""
     },
     "jarFileFingerprint": "ded9acc6a9792b8f1afc470f0c9cd36d178914cd",
-    "jarFileModificationDate": "2014-06-19T11:13:38.582-04:00",
+    "jarFileModificationDate": "2014-06-19T13:14:01.172-04:00",
     "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorld\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ded9acc6a9792b8f1afc470f0c9cd36d178914cd",
+    "jarFileModificationDate": "2014-06-20T13:43:20.574-04:00",
+    "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\AddingaMenu\\libs\\android-support-v4.jar",
     "javaRuntime": false
   },
   {

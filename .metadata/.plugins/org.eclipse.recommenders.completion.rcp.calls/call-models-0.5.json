@@ -18,5 +18,10 @@
     "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorldPicture\\gen",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\HelloWorldPicture\\gen\u0027. Skipped."
+  },
+  "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\VideoShow\\gen": {
+    "location": "C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\VideoShow\\gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\Rajat\\Documents\\GitHub\\glass_workspace\\VideoShow\\gen\u0027. Skipped."
   }
 }
