@@ -1,9 +1,5 @@
 INDEX VERSION 1.126+C:\Users\Rajat\Documents\GitHub\glass_workspace\.metadata\.plugins\org.eclipse.jdt.core
 3160203524.index
 3659006934.index
-2623204528.index
-2380175872.index
-3575432425.index
 2727416521.index
 3435871228.index
-1282272494.index
